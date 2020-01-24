@@ -10,7 +10,7 @@ Tematem naszego projektu było wykonanie robota wykorzystującego płytkę Kinet
 
 Robot opiera swoje działanie na trzech czujnikach odległości opartych o nadajnik i odbiornik podczerwieni oraz układ LM393, umieszczonych w jego przedniej części, odpowiednio po lewej stronie, z przodu i po prawej stronie. Dodatkowo posiada on dwa czujniki krańcowe, które mają obsługiwać przypadek uderzenia w ścianę, powodując odpowiednie wycofanie się pojazdu i korekcję jazdy.
 
-Całość jest obsługiwana przez mikrokontroler Kinetis FRDM-KL05Z podłączony do shielda przeznaczonego dla płytek kompatybilnych z Arduino. Dzięki zgodności wyprowadzeń KL05Z ze standardem Arduino, byliśmy w stanie wykonać połączenie 1:1. Wykorzystywany shield zawiera w sobie sterownik silników DC DRV8835, mostek H oraz buzzer z generatorem, a także kilka innych elementów, których nie wykorzystujemy w projekcie.
+Całość jest obsługiwana przez mikrokontroler Kinetis FRDM-KL05Z podłączony do shieldu przeznaczonego dla płytek kompatybilnych z Arduino. Dzięki zgodności wyprowadzeń KL05Z ze standardem Arduino, byliśmy w stanie wykonać połączenie 1:1. Wykorzystywany shield zawiera w sobie sterownik silników DC DRV8835, mostek H oraz buzzer z generatorem, a także kilka innych elementów, których nie wykorzystujemy w projekcie. Silniki DC napędzające koła są podłączone do shieldu, a szkielet został wykonany z drewnianej sklejki.
 
 Dodatkowo korzystamy z diody RGB wchodzącej w skład KL05Z (sygnalizuje ona zderzenie w ścianę lub wyłączenie silników) oraz przycisku typu tact switch umieszczonego na małej płytce stykowej zamontowanej na szczycie konstrukcji robota (używanego do wyłączenia silników).
 
