@@ -15,3 +15,5 @@ Całość jest obsługiwana przez mikrokontroler Kinetis FRDM-KL05Z podłączony
 Dodatkowo korzystamy z diody RGB wchodzącej w skład KL05Z (sygnalizuje ona zderzenie w ścianę lub wyłączenie silników) oraz przycisku typu tact switch umieszczonego na małej płytce stykowej zamontowanej na szczycie konstrukcji robota (używanego do wyłączenia silników).
 
 Robot jest zasilany poprzez zestaw baterii o łącznym napięciu wynoszącym ok. 9 V oraz poprzez przewód miniUSB. Podwójne zasilanie było wymagane ze względu na użycie elementów wymagających zasilania 5V, które Kinetis wystawia na pin wyłącznie przy zasilaniu przewodowym, przy czym silniki nie mogły być zasilane przez obwody mikrokontrolera z powodu zbyt dużych amplitud pobieranego prądu.
+
+Schemat połączeń jest dostępny do wglądu w pliku schemat_polaczen.png.
