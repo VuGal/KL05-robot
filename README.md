@@ -7,7 +7,9 @@ Prowadzący laboratorium: dr inż. Mariusz Sokołowski
 Link do filmiku pokazującego możliwości robota: https://www.youtube.com/watch?v=DRhq94w-HD8&lc=z231vrthcnanvvgeracdp431vruxp345r20q223zkmpw03c010c
 
 Język: C (styl "bare metal")
+
 Środowisko programistyczne: Keil uVision
+
 
 Tematem naszego projektu było wykonanie robota wykorzystującego płytkę Kinetis FRDM-KL05Z, który autonomicznie pokona trasę w postaci labiryntu. Ze względu na ograniczone możliwości konstrukcji samego labiryntu, zamieściliśmy w filmie demo podstawowe sytuacje, w jakich pojazd znajdzie się w czasie przejazdu. Dodaliśmy także demonstrację zachowania poszczególnych czujników "w wolnej przestrzeni".
 
